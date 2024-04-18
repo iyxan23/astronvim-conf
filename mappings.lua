@@ -37,8 +37,8 @@ return {
     ["<leader>t2h"] = { "<cmd>ToggleTerm 2 size=10 direction=horizontal name=second<cr>", desc = "ToggleTerm second terminal horizontal split" },
     ["<leader>t2v"] = { "<cmd>ToggleTerm 2 size=80 direction=vertical name=second<cr>", desc = "ToggleTerm second terminal vertical split" },
 
-    ["<leader>t3f"] = { "<cmd>ToggleTerm 3 direction=float name=second<cr>", desc = "ToggleTerm second terminal float" },
-    ["<leader>t3h"] = { "<cmd>ToggleTerm 3 size=10 direction=horizontal name=second<cr>", desc = "ToggleTerm second terminal horizontal split" },
-    ["<leader>t3v"] = { "<cmd>ToggleTerm 3 size=80 direction=vertical name=second<cr>", desc = "ToggleTerm second terminal vertical split" },
+    ["<leader>t3f"] = { "<cmd>ToggleTerm 3 direction=float name=third<cr>", desc = "ToggleTerm third terminal float" },
+    ["<leader>t3h"] = { "<cmd>ToggleTerm 3 size=10 direction=horizontal name=third<cr>", desc = "ToggleTerm third terminal horizontal split" },
+    ["<leader>t3v"] = { "<cmd>ToggleTerm 3 size=80 direction=vertical name=third<cr>", desc = "ToggleTerm third terminal vertical split" },
   }
 }

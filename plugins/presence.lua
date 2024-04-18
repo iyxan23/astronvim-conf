@@ -3,7 +3,7 @@ return {
   lazy = false,
   opts = {
     auto_update = true,
-    neovim_image_text = "The chad text editor",
+    neovim_image_text = "Better than VSCode",
     buttons = {
       {
         label = "My GitHub",

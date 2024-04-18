@@ -11,7 +11,9 @@ function _G.set_terminal_keymaps()
 end
 
 -- if you only want these mappings for toggle term use term://*toggleterm#* instead
-vim.cmd('autocmd! TermOpen term://*toggleterm#* lua set_terminal_keymaps()')
+vim.cmd('autocmd! TermOpen term://*toggleterm#1 lua set_terminal_keymaps()')
+vim.cmd('autocmd! TermOpen term://*toggleterm#2 lua set_terminal_keymaps()')
+vim.cmd('autocmd! TermOpen term://*toggleterm#3 lua set_terminal_keymaps()')
 
 return {
   lsp = {
